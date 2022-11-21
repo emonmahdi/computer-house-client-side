@@ -4,10 +4,12 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
+import './HeaderNav.css'
+
 const HeaderNav = () => {
   return (
     <div>
-      <Navbar collapseOnSelect expand="lg" bg="primary" variant="light">
+      <Navbar collapseOnSelect expand="lg" bg="primary" className="computer-navbar" variant="dark">
         <Container>
           <Navbar.Brand href="#home">Computer House</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />

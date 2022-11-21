@@ -7,4 +7,25 @@
 .single-product{
     margin-bottom: 25px;
     border-radius: 10px;
+    position: relative;
+    text-align: left;
+}
+.single-product .single-img{  
+    width: 50%;
+    display: block;
+    text-align: center;
+    margin: 30px auto; 
+}
+.single-title{
+    margin:15px 0; 
+} 
+.single-price{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.single-quantity{
+    position: absolute;
+    right: 0;
+    top: 0;
 }
