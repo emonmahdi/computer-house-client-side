@@ -1,4 +1,6 @@
 import React from 'react'
+import Footer from '../../Footer/Footer'
+import Products from '../../Products/Products'
 import Banner from '../Banner/Banner'
 import HeaderNav from '../HeaderNav/HeaderNav'
 
@@ -7,6 +9,8 @@ const Home = () => {
     <div>
       <HeaderNav />
       <Banner />
+      <Products />
+      <Footer />
     </div>
   )
 }
