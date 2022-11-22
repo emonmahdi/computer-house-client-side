@@ -1,5 +1,6 @@
 import React from 'react'
 import AboutUs from '../../AboutUs/AboutUs'
+import Category from '../../Category/Category'
 import Footer from '../../Footer/Footer'
 import Products from '../../Products/Products'
 import ServiceProvide from '../../ServiceProvide/ServiceProvide'
@@ -14,6 +15,7 @@ const Home = () => {
       <AboutUs />
       <ServiceProvide />
       <Products />
+      <Category />
       <Footer />
     </div>
   )
