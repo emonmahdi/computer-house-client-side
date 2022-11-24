@@ -1,12 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import proImg1 from  '../../assets/img/headphone.jpg'
 
 import './Product.css'
 
 
 const Product = ({product}) => {
-    const {id, name, description, price, quantity, suppliers, img} = product;
-    console.log(name);
+   const {_id, name, description, price, quantity, suppliers, img} = product;
+   
   return (
     <div className="col-md-4">
     <div className="single-product border p-3 shadow">
@@ -21,7 +22,9 @@ const Product = ({product}) => {
         <h5 className='single-title'>{name}</h5>
         <p>{description}</p>  
         <h6>Supplier Name: <span className='text-danger'>{suppliers}</span></h6>
-        <button className='btn btn-primary my-3'>Stock Update</button>
+        <Link to={`/inventory/${_id}`}> 
+           <button className='btn btn-primary my-3'>Stock Update</button>
+        </Link>
     </div>
 </div> 
   )

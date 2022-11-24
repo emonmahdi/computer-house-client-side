@@ -9,8 +9,8 @@ import HeaderNav from '../HeaderNav/HeaderNav'
 
 const Home = () => {
   return (
-    <div>
-      <HeaderNav />
+    <div id='home'>
+      {/* <HeaderNav /> */}
       <Banner />
       <AboutUs />
       <ServiceProvide />

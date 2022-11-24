@@ -1,6 +1,5 @@
 [
-    {
-        "id": 1,
+    { 
         "name": "MSI GF63 Thin 10SCXR Core i5 10th Gen GTX 1650 4GB Graphics 15.6 FHD Gaming Laptop",
         "description":"Processor: Intel Core i5-10500H (12M Cache, 2.50 GHz up to 4.5 GHz)RAM: 8GB 3200MHz, Storage: 1TB HDD+ 256GB SSD",
         "price": 88500,
@@ -9,8 +8,7 @@
         "category":"laptop",
         "img":"https://i.ibb.co/bNs841m/laptop-1.jpg"
     },
-    {
-        "id": 2,
+    { 
         "name": "Lenovo IdeaPad D330 10IGL Intel CDC N4020 10.1 HD Touch Laptop",
         "description":"Processor: Intel Celeron N4020 (4M Cache,1.10 GHz up to 2.80 GHz. RAM: 4GB DDR4. Storage: 128GB eMMC",
         "price": 39500,
@@ -19,8 +17,7 @@
         "category":"laptop",
         "img":"https://i.ibb.co/71zdWbT/laptop-2.jpg"
     },
-    {
-        "id": 3,
+    { 
         "name": "Asus Vivobook X515MA Celeron N4500 15.6  HD Laptop",
         "description":"Processor: Intel Celeron N4500 (4M Cache, 1.10 GHz up to 2.80 GHz)RAM: 4GB DDR4, Storage: 1TB 5400RPM HDD",
         "price": 43500,
@@ -29,8 +26,7 @@
         "category":"laptop",
         "img":"https://i.ibb.co/g6g2SKz/laptop-3.jpg"
     },
-    {
-        "id": 4,
+    { 
         "name": "Laptop Battery A Grade For FUJITSU Laptop & Notebook",
         "description":"For Laptop For FUJITSU Brand 6 months warranty",
         "price": 1600,
@@ -39,8 +35,7 @@
         "category":"battery",
         "img":"https://i.ibb.co/VBpD0JN/l-battery-1.jpg"
     },
-    {
-        "id": 5,
+    { 
         "name": "Laptop Battery MR90Y for Dell",
         "description":"Battery Type: Li-ion Voltage: 11.1V./14.8V Capacity: 65Wh",
         "price": 1600,
@@ -49,8 +44,7 @@
         "category":"battery",
         "img":"https://i.ibb.co/nmWT3ks/l-battery-2.jpg"
     },
-    {
-        "id": 6,
+    { 
         "name": "Laptop Charger Adapter A Grade for Acer",
         "description":"A Grade adapter For laptop & notebook 6 month warranty",
         "price": 1300,
@@ -59,8 +53,7 @@
         "category":"charger",
         "img":"https://i.ibb.co/mBb8wsK/charger-1.jpg"
     },
-    {
-        "id": 7,
+    { 
         "name": "Laptop Power Charger Adapter Blue Pin 2.31A for Dell",
         "description":"A Grade adapter Voltage: 19.5V 2.31A 45W Durable Charger",
         "price": 1300,
@@ -69,8 +62,7 @@
         "category":"charger",
         "img":"https://i.ibb.co/yVnvGGG/charger-2.jpg"
     },
-    {
-        "id": 8,
+    { 
         "name": "Star PC Intel Pentium Gold G6400 11th Gen PC",
         "description":"MSI H510M-A PRO Intel 10th Gen and 11th Gen Mirco-ATX Motherboard Intel Pentium Gold G6400 10th gen Coffee Lake Processor",
         "price": 25600,
@@ -79,8 +71,7 @@
         "category":"desktop",
         "img":"https://i.ibb.co/ssPNDTF/desktop-1.jpg"
     },
-    {
-        "id": 9,
+    { 
         "name": "Intel NUC 11 NUC11PAHi3 Core i3 11th Gen Performance Kit",
         "description":"Intel Core i3-1115G4 Processor (6MB Cache, 3.0 GHz up to 4.10 GHz) 2 x DDR4-3200 1.2V SO-DIMM Slots (Supported up to 64GB)",
         "price": 38000,
@@ -89,8 +80,7 @@
         "category":"desktop",
         "img":"https://i.ibb.co/DRY4SFm/desktop-2.jpg"
     },
-    {
-        "id": 10,
+    { 
         "name": "ACER K202HQL 19.5 Inch HD LED Monitor",
         "description":"Resolution: WXGA HD (1366x768) Display: TN, 60Hz, 5ms Ports: 1x VGA",
         "price": 10500,
@@ -99,8 +89,7 @@
         "category":"monitor",
         "img":"https://i.ibb.co/5r0HTR8/monitor-1.jpg"
     },
-    {
-        "id": 11,
+    { 
         "name": "HP P22va G4 21.5 Full HD Monitor",
         "description":"Resolution: FHD (1920 x 1080) Display: VA, 60Hz, 7ms GtG Ports: HDMI, VGA",
         "price": 12700,
@@ -109,8 +98,7 @@
         "category":"monitor",
         "img":"https://i.ibb.co/y5twX6V/monitor-2.jpg"
     },
-    {
-        "id": 12,
+    { 
         "name": "Intel Pentium Gold G7400 Alder Lake Processor",
         "description":"Base Clock Speed: 3.70 GHz Cache: 6 MB Intel Smart Cache, Socket: LGA 1700",
         "price": 7500,

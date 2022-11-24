@@ -7,21 +7,21 @@ const Products = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch('./products.json')
+    fetch('https://computer-house-app.onrender.com/products')
     .then(res => res.json())
     .then(data => setProducts(data))
   }, [])
 
   return (
-    <div className='product-section'>
+    <div id='products-section' className='product-section'>
       <h3 className='title-products'>Our Products</h3>
       <div className="container">
         <div className="row">
 
         {
           products.map(product => <Product 
-          key={product.id}
-            product={product}
+          key={product._id}
+          product={product}
           ></Product>)
         }
 
