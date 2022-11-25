@@ -14,7 +14,7 @@ import './HeaderNav.css'
 
 const HeaderNav = () => {
   const [user] = useAuthState(auth);
-  console.log(user);
+ 
   const [signOut] = useSignOut(auth);
 
   
@@ -33,9 +33,15 @@ const HeaderNav = () => {
               {
               user ? <> 
               <NavDropdown title={`${user?.displayName || user?.email}`} id="collasible-nav-dropdown">
-                <NavDropdown.Item as={Link} to="/login">Profile</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/manage">Manage Product</NavDropdown.Item>
                   
                 <NavDropdown.Divider />
+                <NavDropdown.Item as={HashLink} to="/add-new-inventory">
+                  Add inventory
+                </NavDropdown.Item>
+                <NavDropdown.Item as={HashLink} to="/my-items">
+                  My-items
+                </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.4">
                   Dashboard
                 </NavDropdown.Item>

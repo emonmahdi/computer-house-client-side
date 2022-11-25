@@ -6,24 +6,20 @@ import './ProductDetails.css'
 
 
 const ProductDetails = () => {
+    const [stockUpdate, setStockUpdate] = useState('');
+    console.log(stockUpdate)
     const {Id} = useParams(); 
     // const [allProducts,setAllProducts] = useState([])
 
     const [products, setProducts] = useServiceDetails(Id); 
     // console.log(products);
     const {_id, name, price, description, img,suppliers, quantity } = products;
-  
-    // useEffect(() => {
-    //   fetch('https://computer-house-app.onrender.com/products')
-    //   .then(res => res.json())
-    //   .then(data => {
-    //     setAllProducts(data);
-    //   })
-    // }, [])
+   
 
     const handleDelivered = (id) => {
-      const newQuantity = parseInt(quantity) - 1;
+      const newQuantity = parseInt(quantity) - 1; 
       const updateQuantity = { newQuantity }
+      
 
       const url = `https://computer-house-app.onrender.com/products/${_id}`
       fetch(url, {
@@ -44,6 +40,11 @@ const ProductDetails = () => {
       })
     }
 
+
+    const handleStockUpdate = (e) => {
+      e.preventDefault(); 
+    }
+
   return (
     <div className='product-details-section'>  
       <div className="container mt-5">
@@ -61,9 +62,26 @@ const ProductDetails = () => {
                 <h5 className='single-title'>{name}</h5>
                 <p>{description}</p>  
                 <h6>Supplier Name: <span className='text-danger'>{suppliers}</span></h6>
-                 
-                <button onClick={() =>  handleDelivered(_id)} className='btn btn-primary my-3'>Delivered</button>
                 
+                <div className="row d-flex align-items-center">
+                  <div className="col-md-6">
+                      <button onClick={() =>  handleDelivered(_id)} className='btn btn-primary my-3'>Delivered</button>
+                  </div>
+                  <div className="col-md-6">
+                    <div className='text-end'>
+                      <form onSubmit={handleStockUpdate}>
+                          <div className='input-group'>
+                            <input type="number" name='stock' onChange={(e) => setStockUpdate(e.target.value)} className='form-control d-inline' placeholder='Type Number' />
+                            <div className='input-group-append'> 
+                            <input type="submit" value="Restock" className='btn btn-primary' />
+                            </div>
+                          </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                
+               
             </div>
           </div> 
         </div>

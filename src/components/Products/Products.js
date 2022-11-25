@@ -1,9 +1,13 @@
 import React, { useEffect, useState } from 'react' 
+import { useAuthState } from 'react-firebase-hooks/auth';
+import { Link } from 'react-router-dom';
+import auth from '../../firebase.init';
 import Product from '../Product/Product';
 import './Products.css'
 
 
 const Products = () => {
+  const [user] = useAuthState(auth);
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
@@ -23,11 +27,15 @@ const Products = () => {
           key={product._id}
           product={product}
           ></Product>)
-        }
-
-          {/* Single Product */}
-            
-            
+        } 
+        </div>
+        <div className="manage-btn text-center">
+          {
+            user && <Link to='/manage'>
+            <button className='btn btn-dark'> Manage Inventory</button>
+         </Link> 
+          }
+          
         </div>
       </div>
     </div>
