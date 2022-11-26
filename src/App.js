@@ -14,6 +14,7 @@ import AddNewItem from './Pages/AddNewItem/AddNewItem';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import MyItems from './Pages/MyItems/MyItems';
+import Blogs from './Pages/Blogs/Blogs';
 
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
             </RequireAuth>
             } /> 
 
+          <Route path='/blogs' element={<Blogs />} /> 
           <Route path='*' element={<NotFound />} /> 
           
        </Routes>

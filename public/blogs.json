@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Difference between javascript and nodejs",
+        "description": "JavaScript is a simple programming language that can be used with any browser that has the JavaScript Engine installed. Node.js, on the other hand, is an interpreter or execution environment for the JavaScript programming language.",
+        "publish": "26/11/2022",
+        "img": "https://i.ibb.co/g6g2SKz/laptop-3.jpg",
+        "reference":"https://www.knowledgehut.com/blog/web-development/node-js-vs-javasript" 
+
+    },
+    {
+        "title": "When should you use nodejs and when should you use mongodb",
+        "description": "MongoDB and NodeJS are two different technologies. MonogDB is a database system which gives you a chance to efficiently store documents in a database and to perform operations like data updates, or to search documents by some criterias. NodeJS's responsibilty is especially to execute your application.",
+        "publish": "25/11/2022",
+        "img": "https://i.ibb.co/71zdWbT/laptop-2.jpg",
+        "reference":"https://stackoverflow.com/questions/72077338/when-should-we-use-nodejs-and-when-should-we-use-mongodb#:~:text=MongoDB%20and%20NodeJS%20are%20two,especially%20to%20execute%20your%20application.&text=Save%20this%20answer.,-Show%20activity%20on" 
+
+    },
+    {
+        "title": "Differences between sql and nosql databases.",
+        "description": "SQL pronounced as “S-Q-L” or as “See-Quel” is primarily called RDBMS or Relational Databases, whereas NoSQL is a Non-relational or Distributed Database. Comparing SQL vs NoSQL databases, SQL databases are table-based databases, whereas NoSQL databases can be document-based, key-value pairs, and graph databases.",
+        "publish": "24/11/2022",
+        "img": "https://i.ibb.co/bNs841m/laptop-1.jpg",
+        "reference":"https://www.guru99.com/sql-vs-nosql.html" 
+
+    },
+    {
+        "title": "What is the purpose of jwt and how does it work",
+        "description": "JWT, or JSON Web Token, is an open standard used to share security information between two parties — a client and a server. Each JWT contains encoded JSON objects, including a set of claims. JWTs are signed using a cryptographic algorithm to ensure that the claims cannot be altered after the token is issued.",
+        "publish": "24/11/2022",
+        "img": "https://i.ibb.co/DRY4SFm/desktop-2.jpg",
+        "reference":"https://www.akana.com/blog/what-is-jwt" 
+
+    }
+]
